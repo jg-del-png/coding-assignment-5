@@ -1,0 +1,162 @@
+body {
+background-image: url(../img/food.jpeg);
+background-size: cover;
+background-attachment: fixed;
+min-height: 100vh;
+margin: 0;
+padding: 20px;
+color: #e07f7f; 
+font-family: Arial;
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: auto auto auto auto auto;
+gap: 20px;
+}
+
+header {
+grid-column: 1;
+grid-row: 1;
+}
+
+figure {
+grid-column: 1;
+grid-row: 2;
+text-align: center;
+}
+
+.content-wrapper {
+grid-column: 1;
+grid-row: 3;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 20px;
+}
+
+.Ingredients {
+grid-column: 1;
+padding: 20px;
+background-color: rgba(255, 255, 255, 0.9);
+border-radius: 50px;
+}
+
+.Directions {
+grid-column: 2;
+padding: 20px;
+background-color: rgba(255, 255, 255, 0.9);
+border-radius: 50px;
+}
+
+.conversion-section {
+grid-column: 1 / -1;
+grid-row: 4;
+padding: 20px;
+background-color: rgba(255, 255, 255, 0.9);
+border-radius: 10px;
+text-align: center;
+}
+
+.rating-section {
+grid-column: 1 / -1;
+grid-row: 5;
+padding: 20px;
+background-color: rgba(255, 255, 255, 0.9);
+border-radius: 10px;
+text-align: center;
+}
+
+h1 {
+text-align: center;
+text-transform: uppercase;
+text-decoration-line: underline;
+text-decoration-color: rgb(228, 164, 28);
+text-decoration-style: dotted;
+font-size: xxx-large;
+text-shadow: 3px 3px 3px red;
+}
+
+h2 {
+text-align: center;
+font-style: italic;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 40px;
+margin-top: -1%;
+text-shadow: 3px 2px 3px red;
+}
+
+p {
+text-align: center;
+background-color: rgba(255, 255, 255, 0.9);
+}
+
+img {
+border: 10px;
+border-radius: 20px;
+border-style: dotted;
+border-color: rgb(228, 164, 28);
+max-width: 400px;
+}
+
+h3 {
+background-color: rgba(228, 118, 28, 0.358);
+text-align: center;
+padding: 10px;
+border-radius: 5px;
+}
+
+ul {
+background: linear-gradient(to bottom, #e6cbcb, #d4b8815d,  rgba(228, 118, 28, 0.332) );
+padding: 20px 60px;
+border-radius: 5px;
+font-size: 25px;
+}
+
+li {
+margin: 8px 0;
+padding-bottom: 10px;
+}
+
+ol {
+background: linear-gradient(to bottom, #e6cbcb, #d4b8815d,  rgba(228, 118, 28, 0.332) );
+padding: 20px 60px;
+border-radius: 5px;
+font-size: 25px;
+}
+
+figcaption {
+text-align: center;
+font-style: italic;
+background-color: rgba(255, 255, 255, 0.9);
+}
+
+/*easy, medium, hard recipe rating section*/
+fieldset {
+margin: auto;
+padding: 15px;
+background-color: rgba(246, 200, 200, 0.267);
+border-radius: 5px;
+}
+
+/*how difficult the recipe is*/
+legend {
+font-weight: 600;
+text-align: center;
+font-size: 16px;
+}
+
+/* Input Section */
+.table {
+margin: 10px 0;
+background: linear-gradient(to bottom, #e6cbcb, #d4b8815d,  rgba(228, 118, 28, 0.332) );
+border-radius: 10px;
+padding: 20px;
+
+}
+
+.table input {
+padding: 8px;
+margin: 5px;
+border-radius: 5px;
+border: 1px solid #737070;
+}
+
+
